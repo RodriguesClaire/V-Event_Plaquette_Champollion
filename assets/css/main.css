@@ -2479,7 +2479,8 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		display: block;
-		font-size: 1.1em;
+		font-size: 1em;
+		font-family: 'montserrat';
 	}
 
 	input[type="text"],
@@ -2646,22 +2647,26 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		font-style: italic;
+		color: rgb(128, 128, 128, 0.75) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		font-style: italic;
+		color:rgb(128, 128, 128, 0.75) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		font-style: italic;
+		color: rgb(128, 128, 128, 0.75) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		font-style: italic;
+		color:rgb(128, 128, 128, 0.75) !important;
 		opacity: 1.0;
 	}
 
