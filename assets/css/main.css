@@ -3672,14 +3672,14 @@ input, select, textarea {
 			padding: 0px 20px 0px 20px;
 			}
 
-		#vevent{
+		.logo, #vevent{
 			
-			height: 5px;
+			height: 150px;
 		}
 
-		#inu{
+		.logo, #inu{
 			
-			height: 5px;
+			height: 150px;
 		}
 
 /* Wrapper (main) */
