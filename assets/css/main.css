@@ -3657,9 +3657,6 @@ input, select, textarea {
 		
 
 		.logos{
-			/* position: relative;
-			display: block;
-			top: 0; */
 			display: flex;
   			justify-content: center;
   			align-items: center;
@@ -3670,17 +3667,8 @@ input, select, textarea {
 			
 			/* haut | droit | bas | gauche */
 			padding: 0px 20px 0px 20px;
+			height: 125px;
 			}
-
-		.logo, #vevent{
-			
-			height: 150px;
-		}
-
-		.logo, #inu{
-			
-			height: 150px;
-		}
 
 /* Wrapper (main) */
 
