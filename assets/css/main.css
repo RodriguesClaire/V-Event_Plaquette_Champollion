@@ -3654,13 +3654,33 @@ input, select, textarea {
 		}
 
 /* LOGO ----------------------------------------------------- */
-		.logo{
-						position: relative;
+		
+
+		.logos{
+			/* position: relative;
 			display: block;
-			top: 0;
+			top: 0; */
+			display: flex;
+  			justify-content: center;
+  			align-items: center;
+			margin-bottom: 50px;
+		}
+
+		.logo{
+			
 			/* haut | droit | bas | gauche */
-			margin: 40px 40px 100px 40px;
+			padding: 0px 20px 0px 20px;
 			}
+
+		#vevent{
+			
+			height: 125px;
+		}
+
+		#inu{
+			
+			height: 125px;
+		}
 
 /* Wrapper (main) */
 
@@ -3680,12 +3700,27 @@ input, select, textarea {
 				/* margin: 0 50px 0 0;
 				} */
 
-				#sidebar .logo {
-					background-image: url("images/Logo_color.png");
+				#sidebar .logos {
+					
 					background-size: contain;
 					background-repeat: no-repeat;
-					margin: 0 50px 0 0;
+					margin-bottom: 0;
 				  }
+
+				#sidebar .logo {
+					height: 50px;
+					padding: 0 25px 0 0;
+				}
+
+				#vevent{
+					content: url("images/Logo_color.png");
+				}
+
+				#inu{
+					content: url("images/INU_logo.png");
+				}
+
+				
 
 		}
 
